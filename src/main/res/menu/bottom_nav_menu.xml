@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_walk_run"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_walk_run" />
+
+    <item
+        android:id="@+id/navigation_calories"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_calories" />
+
+    <item
+        android:id="@+id/navigation_calendar"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_calendar" />
+
+    <item
+        android:id="@+id/navigation_caloriesDisplayFragment"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_calories_display" />
+
+
+</menu>

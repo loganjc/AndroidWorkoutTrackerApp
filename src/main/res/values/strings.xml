@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WorkoutApp</string>
+    <string name="title_walk_run">Walk/Run</string>
+    <string name="title_interval_timer">Interval Timer</string>
+    <string name="title_calories">Calories</string>
+    <string name="title_calendar">Workouts Tracker</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_calories_display">Calories Tracker</string>
+</resources>

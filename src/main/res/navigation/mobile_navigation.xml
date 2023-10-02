@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_walk_run">
+
+    <fragment
+        android:id="@+id/navigation_walk_run"
+        android:name="com.example.workoutapp.ui.walkrun.WalkRunFragment"
+        android:label="@string/title_walk_run"
+        tools:layout="@layout/fragment_walk_run" />
+
+    <fragment
+        android:id="@+id/navigation_calories"
+        android:name="com.example.workoutapp.ui.calories.CaloriesFragment"
+        android:label="@string/title_calories"
+        tools:layout="@layout/fragment_calories" />
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.example.workoutapp.ui.calendar.CalendarFragment"
+        android:label="Workouts"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/navigation_caloriesDisplayFragment"
+        android:name="com.example.workoutapp.ui.caloriesdisplay.CaloriesDisplayFragment"
+        android:label="Calories Tracker"
+        tools:layout="@layout/fragment_calories_display" />
+</navigation>
